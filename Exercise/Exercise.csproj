@@ -43,31 +43,74 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1-30\10RegularExpressionMatching.cs" />
+    <Compile Include="1-30\11ContainerWithMostWater.cs" />
+    <Compile Include="1-30\12IntegerToRoman.cs" />
+    <Compile Include="1-30\15ThreeSum.cs" />
+    <Compile Include="1-30\16ThreeSumClosest.cs" />
+    <Compile Include="1-30\17LetterCombinationsOfAPhoneNumber.cs" />
+    <Compile Include="1-30\18FourSum.cs" />
+    <Compile Include="1-30\19RemoveNthNodeFromEndOfList.cs" />
+    <Compile Include="1-30\20ValidParentheses.cs" />
+    <Compile Include="1-30\21MergeTwoSortedList.cs" />
+    <Compile Include="1-30\22GenerateParentheses.cs" />
+    <Compile Include="1-30\23MergeKSortedList.cs" />
+    <Compile Include="1-30\24SwapNodesInPairs.cs" />
+    <Compile Include="1-30\25ReverseNodesInKGroup.cs" />
+    <Compile Include="151-180\153FindMinimuminRotatedSortedArray.cs" />
+    <Compile Include="151-180\162FindPeakElement.cs" />
+    <Compile Include="151-180\174DungeonGame.cs" />
+    <Compile Include="211-240\220ContainsDuplicateIII.cs" />
+    <Compile Include="211-240\222CountCompleteTreeNodes.cs" />
+    <Compile Include="211-240\230KthSmallestElementInABST.cs" />
+    <Compile Include="211-240\240SearchA2DMatrixII.cs" />
     <Compile Include="241DiffWaysToCompute.cs" />
+    <Compile Include="271-300\275HIndexII.cs" />
+    <Compile Include="271-300\287FindTheDuplicateNumber.cs" />
+    <Compile Include="271-300\300LongestIncreasingSubsequence.cs" />
+    <Compile Include="31-60\31NextPermutation.cs" />
+    <Compile Include="31-60\32LongestValidParentheses.cs" />
+    <Compile Include="31-60\33SearchInRotatedSortedArray.cs" />
+    <Compile Include="31-60\34FindFirstAndLastPosition.cs" />
+    <Compile Include="31-60\35SearchInsertPositioin.cs" />
+    <Compile Include="31-60\36ValidSudoku.cs" />
+    <Compile Include="31-60\50Pow.cs" />
     <Compile Include="330PatchingArray.cs" />
+    <Compile Include="347TopKFrequentElements.cs" />
+    <Compile Include="373FindKPairsWithSmallestSums.cs" />
     <Compile Include="378KthSmallestEleInASortedMatrix.cs" />
-    <Compile Include="4MedianOfTwoSortedArrays.cs" />
+    <Compile Include="1-30\4MedianOfTwoSortedArrays.cs" />
     <Compile Include="506RelativeRanks.cs" />
     <Compile Include="508MostFrequentSubtreeSum.cs" />
     <Compile Include="543DiameterOfBinaryTree.cs" />
     <Compile Include="591TagValidator.cs" />
-    <Compile Include="5LongestPalindromicSubstring.cs" />
+    <Compile Include="1-30\5LongestPalindromicSubstring.cs" />
+    <Compile Include="61-90\69Sqrt.cs" />
+    <Compile Include="61-90\74SearchA2DMatrix.cs" />
     <Compile Include="664StrangePrinter.cs" />
+    <Compile Include="692TopKFrequentWords.cs" />
     <Compile Include="697DegreeOfAnArray.cs" />
     <Compile Include="6ZigZagConversion.cs" />
     <Compile Include="746MinCostClimbingStairs.cs" />
     <Compile Include="762PrimeNumber.cs" />
-    <Compile Include="7ReverseInteger.cs" />
+    <Compile Include="1-30\7ReverseInteger.cs" />
     <Compile Include="812LargestTriangleArea.cs" />
     <Compile Include="813LargestSumOfAverages.cs" />
     <Compile Include="845LongestMountainInArray.cs" />
     <Compile Include="864TransposeMatrix.cs" />
+    <Compile Include="1-30\8StringToInteger.cs" />
+    <Compile Include="1-30\9PalindromeNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\ListNode.cs" />
     <Compile Include="Utils\TreeNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="181-210\" />
+    <Folder Include="241-270\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

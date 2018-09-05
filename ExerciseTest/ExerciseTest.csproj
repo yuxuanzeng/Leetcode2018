@@ -52,7 +52,19 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Test1-30\Test23.cs" />
+    <Compile Include="Test151-180\Test153.cs" />
+    <Compile Include="Test151-180\Test162.cs" />
+    <Compile Include="Test211-240\Test220.cs" />
+    <Compile Include="Test211-240\Test222.cs" />
+    <Compile Include="Test211-240\Test240.cs" />
+    <Compile Include="Test31-60\Test31.cs" />
+    <Compile Include="Test31-60\Test34.cs" />
+    <Compile Include="Test31-60\Test35.cs" />
+    <Compile Include="Test31-60\Test50.cs" />
     <Compile Include="Test591TagValidator.cs" />
+    <Compile Include="Test61-90\Test69.cs" />
+    <Compile Include="Test61-90\Test74.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test241DiffWaysToCompute.cs" />
@@ -61,11 +73,20 @@
     <Compile Include="Test508.cs" />
     <Compile Include="Test330.cs" />
     <Compile Include="Test664.cs" />
-    <Compile Include="Test4.cs" />
+    <Compile Include="Test1-30\Test4.cs" />
     <Compile Include="Test813.cs" />
     <Compile Include="Test746.cs" />
-    <Compile Include="Test5.cs" />
-    <Compile Include="Test6.cs" />
+    <Compile Include="Test1-30\Test5.cs" />
+    <Compile Include="Test1-30\Test6.cs" />
+    <Compile Include="Test1-30\Test8.cs" />
+    <Compile Include="Test1-30\Test9.cs" />
+    <Compile Include="Test373.cs" />
+    <Compile Include="Test1-30\Test11.cs" />
+    <Compile Include="Test1-30\Test12.cs" />
+    <Compile Include="Test1-30\Test15.cs" />
+    <Compile Include="Test1-30\Test16.cs" />
+    <Compile Include="Test1-30\Test18.cs" />
+    <Compile Include="Test1-30\Test17.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
