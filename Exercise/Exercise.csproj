@@ -76,7 +76,9 @@
     <Compile Include="31-60\36ValidSudoku.cs" />
     <Compile Include="31-60\50Pow.cs" />
     <Compile Include="330PatchingArray.cs" />
+    <Compile Include="331-360\354RussionDollEnvelopes.cs" />
     <Compile Include="347TopKFrequentElements.cs" />
+    <Compile Include="361-390\363MaxSumOfRectangleNoLargerThanK.cs" />
     <Compile Include="373FindKPairsWithSmallestSums.cs" />
     <Compile Include="378KthSmallestEleInASortedMatrix.cs" />
     <Compile Include="1-30\4MedianOfTwoSortedArrays.cs" />

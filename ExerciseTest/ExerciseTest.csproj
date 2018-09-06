@@ -62,6 +62,8 @@
     <Compile Include="Test31-60\Test34.cs" />
     <Compile Include="Test31-60\Test35.cs" />
     <Compile Include="Test31-60\Test50.cs" />
+    <Compile Include="Test331-360\Test354.cs" />
+    <Compile Include="Test361-390\Test363.cs" />
     <Compile Include="Test591TagValidator.cs" />
     <Compile Include="Test61-90\Test69.cs" />
     <Compile Include="Test61-90\Test74.cs" />
@@ -97,6 +99,7 @@
       <Name>Exercise</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
