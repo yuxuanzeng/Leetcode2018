@@ -36,6 +36,7 @@ namespace Exercise
                 {
                     var rowSums = new SortedSet<int>();
                     rowSums.Add(0);
+                    //var rowSums = new List<int>();
                     var rowSum = 0;
                     for (var j = 0; j < row; j++) {
                         curSum[j] += colIsLarge ? matrix[r, j] : matrix[j, r];
@@ -45,8 +46,20 @@ namespace Exercise
                         if (pos < rowSums.Count)
                         {
                             res = Math.Max(res, rowSum - rowSums.ElementAt(pos));
+                            if (res == k)
+                            {
+                                return res;
+                            }
                         }
-                        rowSums.Add(rowSum);
+                        //rowSums.Add(rowSum);
+                        //for (var m = -1; m < j; m++)
+                        //{
+                        //    int liValue = rowSums[j] - (m == 0 ? 0 : rowSums[m]);
+                        //    if (liValue == k)
+                        //        return k;
+                        //    if (liValue <= k)
+                        //        res = Math.Max(res, liValue);
+                        //}
                     }
                     //var maxSum = MaxSumNoMoreThanK(curSum, k);
                     //res = Math.Max(maxSum, res);
